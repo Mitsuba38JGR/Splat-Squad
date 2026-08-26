@@ -1,5 +1,5 @@
 // 🔴 あなたのサーバーのアドレス（HTTPS/WSSが通るURL）に変更してください
-const SERVER_URL = "http://localhost:3000"; // または "http://localhost:3000" (ローカルテスト時)
+const SERVER_URL = "https://nasty-days-bow.loca.lt"; // または "http://localhost:3000" (ローカルテスト時)
 const socket = io(SERVER_URL);
 
 const canvas = document.getElementById('gameCanvas');
