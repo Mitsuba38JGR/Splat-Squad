@@ -1,5 +1,5 @@
 // 1. サーバー接続設定
-const SERVER_URL = "https://nasty-days-bow.loca.lt";
+const SERVER_URL = "https://old-impalas-brush.loca.lt";
 const socket = io(SERVER_URL, {
     transports: ['websocket'],
     extraHeaders: {
